@@ -90,3 +90,37 @@ Requirement Analysis involves several structured activities that help ensure the
   The final step is to confirm that the documented requirements accurately reflect stakeholder needs. Validation involves reviews, walkthroughs, and approval sessions with clients or end users to ensure everything is correct before moving on to design and development.
 
 These activities form the backbone of a successful software project by ensuring that the development team builds the right system for the right purpose.
+
+--
+
+## 📂 Types of Requirements
+
+In software development, requirements are generally classified into two categories: **Functional Requirements** and **Non-functional Requirements**. Both are essential for building robust and scalable systems. Below is an explanation of each, along with relevant examples derived from the booking management system case study.
+
+### ✅ Functional Requirements
+
+Functional requirements define the specific behavior or functions of the system — what the system should do. These are derived from user needs and directly relate to the business logic of the application.
+
+**Examples from the Booking Management System:**
+
+- **User Authentication:** Users (both hotel managers and customers) must be able to register, log in, and manage their accounts.
+- **Hotel Management Portal:** Hotel managers should be able to add, update, or delete hotel listings and manage availability through a dedicated service.
+- **Hotel Search and Booking:** Customers must be able to search for available hotels using filters (location, date, price) and book rooms.
+- **Payment Integration:** Customers must be able to complete payments securely via integrated third-party services.
+- **View Booking History:** Users must be able to view current and past bookings in their profiles.
+- **Notification System:** When a booking is made, both the customer and hotel manager should receive real-time notifications.
+
+### ⚙️ Non-functional Requirements
+
+Non-functional requirements define **how** the system performs a function. They include performance, security, scalability, and other quality attributes.
+
+**Examples from the Booking Management System:**
+
+- **Scalability:** The system must handle a high volume of traffic, especially during peak seasons, using microservices and load balancing.
+- **Performance:** APIs should have fast response times, achieved through Redis caching and ElasticSearch for quick reads.
+- **Reliability:** Use of master-slave database architecture ensures high availability and fault tolerance for hotel data.
+- **Data Archiving:** Old bookings and transactional data should be archived using Cassandra to maintain system performance.
+- **Security:** Secure access for different users (customers, managers) and encrypted payment processing.
+- **Availability:** The use of CDNs ensures quick content delivery across geographic regions to improve user experience.
+
+Both types of requirements are essential. Functional requirements ensure the system works as expected, while non-functional requirements ensure it works well, reliably, and at scale.
