@@ -124,3 +124,41 @@ Non-functional requirements define **how** the system performs a function. They 
 - **Availability:** The use of CDNs ensures quick content delivery across geographic regions to improve user experience.
 
 Both types of requirements are essential. Functional requirements ensure the system works as expected, while non-functional requirements ensure it works well, reliably, and at scale.
+
+---
+
+## 🧩 Use Case Diagrams
+
+**Use Case Diagrams** are a visual tool used in requirement analysis to capture and communicate the functional requirements of a system. They show how different users (called actors) interact with the system through various actions or use cases.
+
+### 🔍 Benefits of Use Case Diagrams
+
+- **Clarity**: They provide a clear overview of system functionality from the user's perspective.
+- **Communication**: Help bridge the understanding between technical and non-technical stakeholders.
+- **Requirement Validation**: Make it easier to identify missing or unnecessary functionality.
+- **Design Foundation**: Serve as a base for identifying classes, interfaces, and test cases in later stages.
+
+### 🎯 Use Case Diagram: Booking Management System
+
+Below is a simplified use case diagram for the booking system. It highlights key actors such as the **Customer** and **Hotel Manager**, and their main interactions with the system.
+
+![Use Case Diagram](alx-booking-uc.png)
+
+**Actors**:
+- Customer
+- Hotel Manager
+- Payment Gateway (external system)
+- Admin
+
+**Key Use Cases**:
+- Register/Login
+- Search Hotels
+- View Hotel Details
+- Book Hotel
+- Make Payment
+- View Booking History
+- Manage Hotel Listing
+- Update Availability
+- Receive Notifications
+
+This diagram was created using Draw.io and exported as a PNG file named `alx-booking-uc.png`.
