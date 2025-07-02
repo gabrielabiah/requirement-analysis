@@ -67,3 +67,26 @@ Well-documented requirements act as a blueprint for the design and development p
 Requirements provide a solid basis for creating test cases. When requirements are specific and measurable, it becomes easier to verify if the final product meets the intended goals, which helps improve quality and reliability.
 
 In summary, requirement analysis helps align the development process with business objectives, minimizes risks, and increases the likelihood of delivering a successful product.
+
+---
+
+## 🛠️ Key Activities in Requirement Analysis
+
+Requirement Analysis involves several structured activities that help ensure the success of a software project. Below are the five key activities typically performed during this phase:
+
+- **Requirement Gathering**  
+  This involves collecting information from stakeholders such as clients, users, and domain experts to understand what they expect from the system. Techniques include interviews, questionnaires, observation, and reviewing existing documentation.
+
+- **Requirement Elicitation**  
+  Elicitation goes beyond just gathering data—it focuses on uncovering the real needs of users, which may not be explicitly stated. This step uses strategies like brainstorming, workshops, role-playing, and use case scenarios to identify both functional and non-functional needs.
+
+- **Requirement Documentation**  
+  All collected and elicited requirements are clearly documented in a structured format. This can include Software Requirement Specifications (SRS), user stories, use case diagrams, and flowcharts. The goal is to ensure all stakeholders can review and understand the requirements.
+
+- **Requirement Analysis and Modeling**  
+  At this stage, the requirements are examined for clarity, completeness, feasibility, and consistency. Modeling tools such as data flow diagrams, entity-relationship diagrams, and use case diagrams are often used to visualize system behavior and interactions.
+
+- **Requirement Validation**  
+  The final step is to confirm that the documented requirements accurately reflect stakeholder needs. Validation involves reviews, walkthroughs, and approval sessions with clients or end users to ensure everything is correct before moving on to design and development.
+
+These activities form the backbone of a successful software project by ensuring that the development team builds the right system for the right purpose.
